@@ -115,8 +115,6 @@ function cutWire(event){
             if(wiresToCut === 0){
                 endGame(true);
             }
-
-
         }else{
             //that was the wrong wire - end game
             endGame(false);
